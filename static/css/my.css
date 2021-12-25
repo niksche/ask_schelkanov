@@ -1,0 +1,38 @@
+main > .container {
+    padding: 60px 15px 0;
+}
+.question {
+    margin: 20px;
+    padding: 10px;
+    border: solid 1px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.navacc {
+    align-self: right;
+    margin-left: 20px; 
+}
+
+.navbar_account_info {
+
+}
+
+.navbar_account_info_name {
+    height: 30%;
+}
+
+.navbar_avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.img_setting {
+    height: 250px;
+    width: 250px;
+}

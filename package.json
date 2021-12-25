@@ -1,0 +1,23 @@
+{
+  "name": "ask_schelkanov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niksche/ask_schelkanov.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niksche/ask_schelkanov/issues"
+  },
+  "homepage": "https://github.com/niksche/ask_schelkanov#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

@@ -35,8 +35,11 @@ def login(req):
     return render(req, 'login.html', {})
 
 def question(req, question_number=1): 
+    paginator = Paginator(comments, 5)
+    page_number = req.GET.get('page')
+    page_comments = paginator.get_page(page_number)
     question = questions[question_number]
-    return render(req, 'question.html', {'question': question, 'comments': comments})
+    return render(req, 'question.html', {'question': question, 'comments': page_comments})
 
 def register(req): 
     return render(req, 'signup.html', {})

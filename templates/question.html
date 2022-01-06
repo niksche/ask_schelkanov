@@ -1,0 +1,16 @@
+{% extends "incl/base.html" %}
+{% load static %}
+{% block content %}              
+
+  {% include "incl/single_question_question.html" with question=question %}
+  {% for comment in comments %}
+    {% include "incl/single_comment_question.html" %}
+  {% endfor %}
+
+  {% include "incl/single_form_question.html" %}
+
+
+
+  <!-- {% include "incl/pagination.html" %} -->
+  
+{% endblock %}
